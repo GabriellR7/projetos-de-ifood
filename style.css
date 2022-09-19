@@ -1,0 +1,278 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+img{
+    width: 88px;
+}
+body{
+    background-color:white;
+    background-position: center top;
+    
+}
+nav{
+display: flex;
+align-items: center;
+text-align: center;
+margin: 30px;
+padding: 30px;
+font-size: larger;
+font-family: Arial, Helvetica, sans-serif;
+}
+ul a{
+    color:black;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.corpo {
+    font-size: 15px;
+display: flex;
+align-items: center;
+flex-direction:column;
+}
+.corpo p{
+    font-size: 15px;
+}
+
+.ul{
+    color:white;
+    margin: center;
+}
+.button{
+    border: none;
+    margin-left: 10%;
+    background-color:#ea1d2c;
+    display: grid;
+    place-content: center;
+    padding: 15px 20px ;
+    border-radius: 6px;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.direita{
+    margin-left: auto;
+
+}
+.pesquisa input{
+width: 800px;
+height: 100%;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+.pesquisa {
+    display: flex;
+}
+button{
+    width: 168px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+    background-color: #ea1d2c;
+} 
+.categoria{
+display: flex;
+text-align: center;
+width: 800px;
+margin-top: 150px;
+border-radius: 40px;
+text-transform: uppercase;
+padding: 0;
+justify-content: space-between;
+}
+.categoria .box1{
+    color: #fff;
+    background-color: #ea1d2c;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+ .categoria .box2{
+    background-color: greenyellow;
+    border-radius: 5px;
+    color: #fff;
+    width: 300px;
+}
+
+.categoria .box:hover{
+    transform: scale(1.4);
+}
+
+.categoria .box{
+    transition:all ease 0.5s  ;
+}
+
+.categoria2 {
+display: flex;
+text-align: center;
+justify-content: space-between;
+width: 700px;
+height: 60px;
+margin-top: 150px;
+padding: 0%;
+text-transform: uppercase;
+}
+.categoria2 .mile1{
+    background-color: gold;
+    width: 188px;
+    height: 47px;   
+    border-radius: 5%;
+    position: relative;
+
+}
+.categoria2 .mile2{
+    background-color: pink;
+    margin: 0%;
+    border-radius: 5%;
+    width: 188px;
+    height: 47px;
+}
+
+.categoria2 .mile3{
+    background-color: blueviolet;
+    width: 188px;
+    height: 47px;
+    border-radius: 5%;
+}
+.categoria2 .model{
+    transition: all ease 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.categoria2 .model:hover{
+    transform: scale(1.4);
+    
+}
+.categoria3{
+    margin-top: 150px;
+    padding-top: 100px ;
+    border-top: 1px solid rgb(151, 151, 151);
+    width: 80%;
+}
+.categoria2 img{
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    height: 100px;
+}
+.categoria3{
+    font-size: large;
+    
+}
+.scrolbox img{
+justify-content: center;
+display: flex;
+}
+.scrolbox{
+    border: solid 1px black;
+    width: 290px;
+    height: 150px;
+    padding: 35px;
+    border-radius: 15px;
+}
+.scrolbox {
+    display: flex;
+    text-align: center;
+    margin-right: 25px;
+
+}
+.scrolbox img{
+   border-radius: 50%; 
+}
+.scrolbox a{
+    padding: 10px;
+    color: black;
+    display: flex;
+    margin-top: 15px;
+    text-decoration: none;    
+}
+.scrolbox:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+}
+.restaurantes{
+    display: flex;
+    margin-top: 50px;
+}
+.restaurantes .imagem{
+    margin-right: 25px;
+}
+.restaurantes .imagem img{
+    height: 280px;
+    width: 470px;
+}
+.categoria4{
+    margin-top: 150px;
+    padding-top: 100px ;
+    border-top: 1px solid rgb(151, 151, 151);
+    width: 80%;
+    font-size: large;
+}
+.tamanho{
+    border: solid 1px black;
+    width: 290px;
+    height: 150px;
+    padding: 35px;
+    border-radius: 15px;
+}
+.tamanho {
+    display: flex;
+    text-align: center;
+    margin-right: 25px;
+
+}
+.tamanho img{
+   border-radius: 50%; 
+}
+.tamanho a{
+    padding: 10px;
+    color: black;
+    display: flex;
+    margin-top: 15px;
+    text-decoration: none;    
+}
+.tamanho:hover{
+    transform: scale(1.1);
+}
+
+.caixa{
+    display: flex;
+}
+.categoria5{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.categoria5 .a16{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.categoria5 .a16 a{
+    background-color: #ea1d2c;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 1.125rem;
+    padding: 16px 12px;
+    border-radius: 4px;
+}
+.categoria6{
+    margin-top: 150px;
+    padding-top: 100px ;
+    border-top: 1px solid rgb(151, 151, 151);
+    width: 100%;
+}
